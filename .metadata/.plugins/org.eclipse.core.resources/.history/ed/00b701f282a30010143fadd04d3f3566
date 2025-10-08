@@ -1,0 +1,14 @@
+package ejercicio4;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		
+		System.out.print(" HORARIO| Lunes | Martes | Miercoles | Jueves | Viernes |"
+					+  "\n  03:15 |Sis Inf|");
+		
+		
+
+	}
+
+}

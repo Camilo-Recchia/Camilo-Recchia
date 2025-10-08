@@ -1,0 +1,42 @@
+package ejercicioCondicionales;
+import java.util.Scanner;
+public class EjercicioCondicionales {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		double numeroFallos, numeroAciertos,nota=0;
+		String notaLetra="rico";
+		
+		
+		System.out.print("      Calcula el Resultado de tu Examen\n-------------------------------------------\n");
+		
+		
+		
+		System.out.print("Por Favor introduzca su numero de acietos: ");
+		numeroAciertos = teclado.nextInt();
+		System.out.print("Por Favor introduzca su numero de fallos: ");
+		numeroFallos = teclado.nextInt();
+		
+		if(numeroFallos+numeroAciertos<=20) {
+		nota = (numeroAciertos*0.5)-(numeroFallos*0.25);
+			if(nota<5)
+			notaLetra = "Insuficiente";
+			else if(nota<6)
+			notaLetra = "Suficiente";
+			else if(nota<7)
+			notaLetra = "Bien";
+			else if(nota<8)
+			notaLetra = "Notable";
+			else notaLetra = "Sobresaliente";
+			
+			
+		}else {System.out.print("Datos Erróneos."); System.exit(0);  }
+	
+	
+		System.out.print("Tu nota en el examen es un "+nota+",es "+notaLetra);
+		
+	}
+
+}

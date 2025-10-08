@@ -1,0 +1,26 @@
+package ejercicioCondicionales;
+import java.util.Scanner;
+public class EjercicioCondicionales {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int numeroFallos, numeroAciertos,nota;
+		String notaLetra;
+		
+		System.out.print("Por Favor introduzca su numero de acietos: ");
+		numeroAciertos = teclado.nextInt();
+		System.out.print("Por Favor introduzca su numero de fallos: ");
+		numeroFallos = teclado.nextInt();
+		
+		if(numeroFallos+numeroAciertos==20) {
+			System.out.print("funciona");
+		
+		}else {System.out.print("ERROR."); System.exit(0);  }
+	
+	System.out.print("fafasfafw");
+	
+	}
+
+}

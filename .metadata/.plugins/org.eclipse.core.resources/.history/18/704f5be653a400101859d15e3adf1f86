@@ -1,0 +1,20 @@
+/*
+ *Descripción: Admición a estudios superiores 
+ *Autor: Camilo Villarroel Recchia
+ *Fecha: 08/10/2025
+ */
+package ejercicio4;
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		
+		
+		
+		
+	}
+
+}

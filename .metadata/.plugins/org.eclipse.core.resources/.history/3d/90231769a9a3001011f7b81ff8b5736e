@@ -1,0 +1,19 @@
+package pruebasCamilo;
+
+public class EntornoDePrubas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int numero;
+		
+		char c;
+		
+		c = (char) 65;
+		
+				System.out.println(c);
+		
+	}
+
+}

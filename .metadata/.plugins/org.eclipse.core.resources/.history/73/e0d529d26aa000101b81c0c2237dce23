@@ -1,0 +1,42 @@
+package pruebaIf;
+
+import java.util.Scanner;
+
+public class PruebaIF {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int numero;
+		
+		System.out.print("Introduzca un número entero: ");
+		numero = teclado.nextInt();
+		if (numero<0) {
+		    System.out.println("El número no es positivo.");
+		
+		   
+		    
+		} else {
+		
+			if (numero>0) {
+			System.out.println("El número es positivo.");
+		   
+			 if(numero > 50) {
+			    	
+			    	System.out.print("Y el numero es mayor que 50");
+			    	
+			
+			
+			} else {
+				
+			   System.out.println("El número es nulo.");
+		   
+		   }
+		  }
+		   
+		
+	}
+
+	}
+}

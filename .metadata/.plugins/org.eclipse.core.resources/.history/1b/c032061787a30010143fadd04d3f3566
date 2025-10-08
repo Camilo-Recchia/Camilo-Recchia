@@ -1,0 +1,17 @@
+package ejercicio9;
+
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int base,altura,area;
+		
+		System.out.print("--------------------------------\n    Calcular area Rectangulo\n--------------------------------");
+
+	}
+
+}

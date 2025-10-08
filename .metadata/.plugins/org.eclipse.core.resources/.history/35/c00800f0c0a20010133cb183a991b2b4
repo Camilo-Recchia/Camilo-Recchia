@@ -1,0 +1,27 @@
+package ejercicio4;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+		
+		String nombre,apellidos;
+		int gasto1,gasto2,gasto3,gasto4;
+		
+		System.out.print("----------------------------------------\nPor favor intrduzca su nombre: ");
+		nombre = teclado.nextLine();
+		
+		System.out.print("Por favor intrduzca su apellidos: ");
+		apellidos = teclado.nextLine();
+		
+		System.out.print("----------------------------------------\\na");
+		
+		
+		
+		
+	}
+
+}

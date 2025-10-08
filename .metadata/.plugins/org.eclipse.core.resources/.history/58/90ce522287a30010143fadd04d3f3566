@@ -1,0 +1,27 @@
+package ejercicio9;
+
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int base,altura,area;
+		
+		System.out.println("--------------------------------\n    Calcular area Rectangulo\n--------------------------------");
+		
+		System.out.print("Introduzca la base del rectangulo: ");
+		base = teclado.nextInt();
+
+		System.out.print("Introduzca la altura del rectangulo: ");
+		altura = teclado.nextInt();
+		
+		area = base*altura;
+		
+		System.out.print("--------------------------------\nEl area del rectangulo es "+area );
+		
+	}
+
+}

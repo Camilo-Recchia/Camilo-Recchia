@@ -1,0 +1,23 @@
+/*
+ *Descripción: Admición a estudios superiores 
+ *Autor: Camilo Villarroel Recchia
+ *Fecha: 08/10/2025
+ */
+package ejercicio4;
+import java.util.Scanner;
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int nota1,nota2,nota3,nota4;
+		
+		System.out.println("-------------------------------------------------------------------------------------------------\\nIntroduzca sus notas de las siguientes asignaturas: lengua, Informatica, Matemáticas y Biologia.");
+		System.out.print("-------------------------------------------------------------------------------------------------\nLengua: ");
+		
+		
+		
+	}
+
+}
