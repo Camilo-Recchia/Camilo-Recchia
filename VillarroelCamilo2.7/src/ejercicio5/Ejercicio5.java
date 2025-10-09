@@ -11,7 +11,8 @@ public class Ejercicio5 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		int num1,num2,calculo,resultado=0;
+		int num1,num2,calculo;
+		double resultado=0;
 		
 		System.out.print("Introduzca el valor 1: ");
 		num1 = teclado.nextInt();
@@ -38,7 +39,7 @@ public class Ejercicio5 {
 			System.out.print("El resultado de su operación es "+resultado);
 			break;
 		case 4:
-			resultado = num1 / num2;
+			resultado = num1 / (double)num2;
 			System.out.print("El resultado de su operación es "+resultado);
 			break;
 		default:
