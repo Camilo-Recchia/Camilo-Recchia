@@ -13,6 +13,8 @@ public class PruebaWhileReal {
 			
 			System.out.println(numero);
 			numero++;
+		
+			teclado.close();
 		}
 		
 	}
