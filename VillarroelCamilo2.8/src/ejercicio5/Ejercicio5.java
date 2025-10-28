@@ -1,3 +1,8 @@
+/*
+ *Descripción: Calculo Media numeros con un for
+ *Autor: Camilo Villarroel Recchia
+ *Fecha: 16/10/2025
+ */
 package ejercicio5;
 
 import java.util.Scanner;
@@ -29,7 +34,9 @@ public class Ejercicio5 {
 			}
 		}
 
-		System.out.print("La media de los numeros positivos es " + positivo/contadorPositivo+", la media de los numeros negativos es "+negativo/contadorNegativo+" y se han introducido "+nulo+" ceros");
+		System.out.print("La media de los numeros positivos es " + positivo / contadorPositivo
+				+ ", la media de los numeros negativos es " + negativo / contadorNegativo + " y se han introducido "
+				+ nulo + " ceros");
 
 	}
 }

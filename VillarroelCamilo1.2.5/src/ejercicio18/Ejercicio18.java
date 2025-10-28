@@ -8,12 +8,18 @@ public class Ejercicio18 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		int hora;
+		double hora,minutos;
 		
-		System.out.print("Introduzca las horas y minutos que tardaban los camiones en llegar a su destino,(las horas se intoducen como: 11:30 = 1130): ");
+		System.out.println("Introduzca las horas y minutos que tardaban los camiones en llegar a su destino: ");
+	
+		System.out.print("Horas: ");
 		hora = teclado.nextInt();
+		System.out.print("Minutos: ");
+		minutos = teclado.nextInt();
 		
+		hora = (int)hora - (int)hora*0.15;
 		
+		System.out.println(hora);
 	}
 
 }

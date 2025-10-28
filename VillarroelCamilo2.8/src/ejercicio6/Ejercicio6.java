@@ -1,3 +1,8 @@
+/*
+ *Descripción: Calculo de Cuadrado de numeros con un while
+ *Autor: Camilo Villarroel Recchia
+ *Fecha: 16/10/2025
+ */
 package ejercicio6;
 
 import java.util.Scanner;
